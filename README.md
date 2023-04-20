@@ -44,8 +44,8 @@ Feel free to explore the configuration files in this repository and customize th
 
 If you have any suggestions or improvements for my Hyprland setup, feel free to open an issue or submit a pull request. I welcome contributions from the community to make this setup even better!
 
-## License
+## Sources used making these
 
-This project is open source and available under the [MIT License](LICENSE).
-
+    Official Hyprland Github https://github.com/hyprwm/Hyprland
+    Arco Linux Hyprland dot files https://github.com/arcolinuxd/arco-hyprland
 
