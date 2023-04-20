@@ -1,0 +1,179 @@
+/* import a css file containing variables, but with no pseudo classes */
+@import url('/home/pratham/.cache/wal/colors-waybar.css');
+
+
+
+/* COLORS
+@define-color foreground #d1dac9;
+@define-color background #000000;
+@define-color cursor #d1dac9;
+
+@define-color color0 #000000;
+@define-color color1 #C1B238;
+@define-color color2 #FCF405;
+@define-color color3 #E6DB20;
+@define-color color4 #0A65AA;
+@define-color color5 #1F6BB3;
+@define-color color6 #559B9E;
+@define-color color7 #d1dac9;
+@define-color color8 #92988c;
+@define-color color9 #C1B238;
+@define-color color10 #FCF405;
+@define-color color11 #E6DB20;
+@define-color color12 #0A65AA;
+@define-color color13 #1F6BB3;
+@define-color color14 #559B9E;
+@define-color color15 #d1dac9;
+*/
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Cartograph CF Nerd Font, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: #cdd6f4;
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: #2a2a2b;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: @color4;
+}
+
+#workspaces button.focused {
+    color: #a6adc8;
+    background: #1b1c1f;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    background: #a6e3a1;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: #1b1c1f;
+    color: @color15;
+    border-radius: 10px;
+}
+
+#custom-language,
+#custom-updates,
+#custom-caffeine,
+#custom-weather,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#custom-cycle_wall,
+#workspaces,
+#tray,
+#backlight {
+    background: #1e1e2e;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+    border: 1px solid #181825;
+}
+
+#tray {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#workspaces {
+    background: #1b1c1f;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+#custom-caffeine {
+    color: #89dceb;
+    border-radius: 10px 0px 0px 10px;
+    border-right: 0px;
+    margin-left: 10px;
+}
+
+#custom-language {
+    color: #f38ba8;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#custom-updates {
+    color: #f5c2e7;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#window {
+    color: @color14;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#clock {
+    color: @color1;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 0px;
+    border-right: 0px;
+}
+
+#network {
+    color: @color4;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio {
+    color: @color3;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio.microphone {
+    color: @color3;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#battery {
+    color: @color5;
+    border-radius: 0 10px 10px 0;
+    margin-right: 10px;
+    border-left: 0px;
+}
+
+#custom-weather {
+    border-radius: 0px 10px 10px 0px;
+    border-right: 0px;
+    margin-left: 0px;
+}
+
+#custom-cycle_wall {
+    color: @color2;
+    border-left: 0px;
+    border-right: 0px;
+}
