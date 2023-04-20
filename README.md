@@ -1,36 +1,51 @@
-Hyprland Setup :computer:
+# Hyprland Setup
 
-This repository contains my personalized setup for Hyprland, a window manager based on my preferences. Below you'll find the list of components I use in my setup, along with some screenshots showcasing the appearance.
-Components :gear:
+Welcome to my Hyprland setup on GitHub! This project showcases my personalized configuration for various tools and applications to create a customized desktop environment.
 
-    Window Manager: Hyprland
-    Shell: Bash
-    Terminal: Foot
-    Launcher: Wofi
-    File Manager: Ranger
-    Notification Daemon: Dunst
-    Panel: Waybar
-    Browser: Firefox
+## Description
 
-Screenshots :camera:
+My Hyprland setup includes the following components:
 
-Here are some screenshots of my Hyprland setup in action:
+- Window Manager: Hyprland
+- Shell: Bash
+- Terminal: Foot
+- Launcher: Wofi
+- File Manager: Ranger
+- Notify Daemon: Dunst
+- Panel: Waybar
+- Browser: Firefox
 
-    Screenshot 1 :desktop_computer:
-    Screenshot 1
+I also use Pywal to customize the theme of my desktop environment based on the wallpaper I have set. Pywal picks colors from the wallpaper in real-time and applies them to Waybar and the terminal. Additionally, I use Pywalfox to colorize the Firefox theme according to Pywal's colors.
 
-    Screenshot 2 :artificial_satellite:
-    Screenshot 2
+## Screenshots
 
-Theme Customization :art:
+Here are some screenshots of my Hyprland setup:
 
-I use Pywal to dynamically customize the theme of my setup based on the wallpaper I have set. Pywal picks colors from the wallpaper and applies them in real-time to Waybar and the terminal, giving a cohesive look to my setup. Additionally, I use Pywalfox to apply the Pywal colors to the Firefox theme, creating a consistent visual experience.
-Contributions :raised_hands:
+[![Screenshot 1](screenshot1.png)](screenshot1.png)
+*Screenshot 1: Hyprland setup with custom wallpaper and themed applications*
 
-Feel free to contribute to my Hyprland setup by creating issues or pull requests. I'm open to suggestions and improvements to make my setup even better!
-License :scroll:
+[![Screenshot 2](screenshot2.png)](screenshot2.png)
+*Screenshot 2: Terminal with Pywal-generated colors*
 
-This repository is open-source and released under the MIT License.
+## Installation
 
-Happy customizing! :smiley: :rocket:
+To set up your own Hyprland environment with a similar configuration, follow these steps:
+
+1. Install the necessary components: Hyprland, Bash, Foot, Wofi, Ranger, Dunst, Waybar, and Firefox.
+2. Install Pywal and Pywalfox for color customization.
+3. Clone this GitHub repository to your local machine.
+4. Copy the configuration files from this repository to their respective locations on your system.
+5. Customize the configuration files according to your preferences.
+6. Restart the relevant services or log out and log back in to see the changes take effect.
+
+Feel free to explore the configuration files in this repository and customize them to suit your needs!
+
+## Contributing
+
+If you have any suggestions or improvements for my Hyprland setup, feel free to open an issue or submit a pull request. I welcome contributions from the community to make this setup even better!
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
 
