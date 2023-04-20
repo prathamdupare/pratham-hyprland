@@ -34,6 +34,10 @@ To set up your own Hyprland environment with a similar configuration, follow the
 2. Install Pywal and Pywalfox for color customization.
 3. Clone this GitHub repository to your local machine.
 4. Copy the configuration files from this repository to their respective locations on your system.
+
+```
+git clone https://github.com/prathamdupare/pratham-hyprland.git
+```
 5. Customize the configuration files according to your preferences.
 6. Restart the relevant services or log out and log back in to see the changes take effect.
 
