@@ -21,8 +21,9 @@ I also use Pywal to customize the theme of my desktop environment based on the w
 
 Here are some screenshots of my Hyprland setup:
 
-[![Screenshot 1](screenshot1.png)](screenshot1.png)
-*Screenshot 1: Hyprland setup with custom wallpaper and themed applications*
+[![Screenshot 1](https://github.com/prathamdupare/pratham-hyprland/blob/master/pratham-hyprland-1.png)
+[![Screenshot 1](https://github.com/prathamdupare/pratham-hyprland/blob/master/pratham-hyprland-1.png)
+
 
 [![Screenshot 2](screenshot2.png)](screenshot2.png)
 *Screenshot 2: Terminal with Pywal-generated colors*
