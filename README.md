@@ -47,6 +47,6 @@ If you have any suggestions or improvements for my Hyprland setup, feel free to 
 
 ## Sources used making these
 
-    Official Hyprland Github https://github.com/hyprwm/Hyprland
-    Arco Linux Hyprland dot files https://github.com/arcolinuxd/arco-hyprland
+- Official Hyprland Github https://github.com/hyprwm/Hyprland
+- Arco Linux Hyprland dot files https://github.com/arcolinuxd/arco-hyprland
 
