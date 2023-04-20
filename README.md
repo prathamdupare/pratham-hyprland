@@ -25,8 +25,6 @@ Here are some screenshots of my Hyprland setup:
 ![Screenshot 1](https://github.com/prathamdupare/pratham-hyprland/blob/master/pratham-hyprland-2.jpg)
 
 
-[![Screenshot 2](screenshot2.png)](screenshot2.png)
-*Screenshot 2: Terminal with Pywal-generated colors*
 
 ## Installation
 
