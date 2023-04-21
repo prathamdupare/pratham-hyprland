@@ -1,12 +1,41 @@
+/* import a css file containing variables, but with no pseudo classes */
+@import url('/home/pratham/.cache/wal/colors-waybar.css');
+
+
+
+/* COLORS
+@define-color foreground #d1dac9;
+@define-color background #000000;
+@define-color cursor #d1dac9;
+
+@define-color color0 #000000;
+@define-color color1 #C1B238;
+@define-color color2 #FCF405;
+@define-color color3 #E6DB20;
+@define-color color4 #0A65AA;
+@define-color color5 #1F6BB3;
+@define-color color6 #559B9E;
+@define-color color7 #d1dac9;
+@define-color color8 #92988c;
+@define-color color9 #C1B238;
+@define-color color10 #FCF405;
+@define-color color11 #E6DB20;
+@define-color color12 #0A65AA;
+@define-color color13 #1F6BB3;
+@define-color color14 #559B9E;
+@define-color color15 #d1dac9;
+*/
+
+
 * {
     font-family: "Noto Sans";
     font-size: 14px;
 }
 
 #window {
-	background-color: --wofi-color0;
-	color: --wofi-color2;
-	border: 2px solid --wofi-color1;
+	background-color: @color0;
+	color: @color2;
+	border: 1px @color5;
 	border-radius: 0px;
 }
 
@@ -16,7 +45,7 @@
 
 #input {
 	background-color: --wofi-color1;
-	border: 0px solid --wofi-color3;
+	border: 0px solid @color4;
 	padding: 8px 12px;
 }
 
@@ -33,11 +62,11 @@
 }
 
 #text {
-	color: --wofi-color2;
+	color: @color2;
 }
 
 #text:selected {
-	color: --wofi-color0;
+	color: @color0;
 }
 
 #entry {
@@ -45,8 +74,8 @@
 }
 
 #entry:selected {
-	background-color: --wofi-color3;
-	color: --wofi-color0;
+	background-color: @color3;
+	color: @color1;
 }
 
 #unselected {
